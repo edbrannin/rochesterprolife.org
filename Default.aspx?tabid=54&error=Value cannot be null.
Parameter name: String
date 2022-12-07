@@ -11,6 +11,10 @@
 <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEyNzk3NjA5MTAPZBYEAgMPFgIeBGhyZWYFFC9JbnN0YWxsL0luc3RhbGwuY3NzZAIFD2QWAgIFDw8WAh4EVGV4dAU2PGltZyBzcmM9Ii9pbWFnZXMvbHQuZ2lmIiBib3JkZXI9IjAiIC8+IFJldHVybiB0byBTaXRlZGRkgpNagWVD38fLQl2zeywjmkIq6JI=" />
 </div>
 
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="5ED29197" />
+</div>
         <table cellspacing="5" cellpadding="5" border="0" class="Error">
 	        <tr>
 		        <td><img id="Image1" src="logo.gif" alt="DotNetNuke" style="border-style:None;border-width:0px;" /></td>
