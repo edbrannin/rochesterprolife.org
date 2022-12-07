@@ -1,0 +1,380 @@
+body {
+	background-color: transparent;
+	width : 100%;
+	height : 100%;
+}
+
+.Search{
+   font-size:11px;
+   font-weight:bold; 
+   color:#FFFFFF;
+   text-decoration:none
+}
+
+#sssearch input {							
+border-style:solid;
+border-width:1px;
+border-color:#999999;
+text-align:left;
+width:180px;
+height:21px;
+}
+
+.pagemaster {
+	width: 100%;
+	height: 100%;	
+}
+
+.controlpanel {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.headerpane,.imagepane {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.toppane {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+
+.leftpane {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+
+.contentpane {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+
+.rightpane {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+
+.bottompane {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+}
+
+.MainMenu_MenuContainer {
+	background-color: transparent;
+    width:100%;
+	height:1px;
+}
+
+.MainMenu_MenuBar {
+}
+
+.MainMenu_MenuArrow {
+	display: none
+}
+
+.MainMenu_RootMenuArrow {
+	display: none
+}
+
+.MainMenu_MenuIcon {
+	display: none
+}
+
+.MainMenu_MenuBreak {
+   	border-bottom: transparent 0px solid; 
+	border-left: transparent 0px solid; 
+	border-top: transparent 0px solid;  
+	border-right: transparent 0px solid; 
+	background-color: transparent; 
+	height: 1px;
+}
+
+.RootMenuItem TD {	
+	color:#999; 
+	font-size:13px; 
+	font-weight:bold;
+	text-align:left;
+	background:url(images/bs14_r7_c3.png) 0px 0px repeat-x transparent;
+	padding-left:40px;
+	width:200px;
+	height:35px;
+}
+
+.RootMenuItemSel TD {
+	color:#87a284; 
+	font-size:13px; 
+	font-weight:bold;
+	padding-left:40px;
+	text-align:left;
+	width:200px;
+	height:35px;		
+}
+
+.RootMenuItemHover TD {
+    color:#87a284; 
+	font-size:13px; 
+	font-weight:bold;
+	padding-left:40px;
+	text-align:left;
+	width:200px;
+	height:35px;	
+}
+
+
+.MainMenu_MenuItem {
+    padding:4px 20px 4px 10px;
+    border:0pt none;
+    font-size: 11px; 
+    color: #333;
+	font-weight: bold;  
+}
+
+.MainMenu_MenuItemSel {
+	background-color: transparent; 
+	cursor: pointer; 
+	cursor: hand; 
+}
+
+.Submenu {
+    border:1px solid #7d987a;
+    cursor:pointer;
+    margin-top: 0px;
+    margin-left: 0px; 
+    z-index: 1000;
+    font-size: 11px; 
+    color: #333333;
+    font-weight: bold; 
+	background: #aac5a7; 
+	opacity:.8;
+	-moz-opacity:0.8; 
+}
+
+.Submenuitemselected,Submenuitembreadcrumb {
+    padding:4px 20px 4px 10px;
+    border:0pt none;
+    margin-top: 0px;
+    margin-left: 0px; 
+    font-size: 11px; 
+    color: #FFFFFF;
+	font-weight: bold; 
+	background: #87a284; 
+	FILTER:Alpha(opacity=80);
+	opacity:.8;
+	-moz-opacity:0.8; 
+}
+
+.Head{ 
+   font-size:13px;
+   font-weight:bold;
+   color:#000000; 
+}
+
+.SubHead{ 
+   font-size:12px; 
+   color:#000000;
+  }
+   
+.SubSubHead{ 
+   font-size:11px; 
+   color:#000000;
+}
+
+.Normal{
+   font-size:11px; 
+   color:#000000;
+   font-weight : normal;
+   font-size : 11px;
+}
+
+.TH,TD,DIV {	
+   font-size: 11px; 
+   color: #000000; 
+   font-family: Verdana, Arial,  Helvetica, sans-serif;
+}
+
+.CommandButton {
+	font-size : 11px;
+	font-weight : normal;
+	color : #0033CC;
+	text-decoration : none;
+}
+    
+A.CommandButton:link {
+	font-size : 11px;
+	font-weight : normal;
+	color : #0033CC;
+	text-decoration : underline;
+}
+
+A.CommandButton:visited  {
+	font-size : 11px;
+	font-weight : normal;
+	color : #0033CC;
+	text-decoration : underline;
+}
+
+A.CommandButton:active {
+	font-size : 11px;
+	font-weight : normal;
+	color : #0033CC;
+	text-decoration : underline;
+}
+
+A.CommandButton:hover {
+	font-size : 11px;
+	font-weight : normal;
+	color : #0033CC;
+	text-decoration : none;
+}
+
+.User, A.User:link, A.User:visited, A.User:active{
+   font-size : 11px;
+   font-weight:bold; 
+   color:#87a284;
+   text-decoration:none;
+}
+
+A.User:hover {
+    font-size : 11px;
+    font-weight:bold; 
+	color: #87a284;
+	text-decoration : underline;
+}
+
+.Date, A.Date:link, A.Date:visited, A.Date:active, A.Date:hover  {
+    color:#87a284;
+	font-weight:normal; 
+    font-size:11px;
+    text-decoration:none;
+}
+
+.Breadcrumb, A.Breadcrumb:link, A.Breadcrumb:visited, A.Breadcrumb:active {
+    color:#fff;
+	font-weight:normal; 
+    font-size:11px;
+    text-decoration:none;
+    font-weight:bold; 
+}
+
+A.Breadcrumb:hover  {
+    color:#eee;
+	font-weight:normal; 
+    font-size:11px;
+    text-decoration:underline;
+    font-weight:bold; 
+}
+
+A:link {
+	font-size : 11px;
+	font-weight : normal;
+	color :#2861B5;
+	text-decoration : none;
+}
+
+A:active {
+	font-size : 11px;
+	font-weight : normal;
+	color :#2861B5;
+	text-decoration : underline;
+}
+
+A:hover {
+	font-size : 11px;
+	font-weight : normal;
+	color :#990000;
+	text-decoration : underline;
+}
+
+A:visited {
+	font-size : 11px;
+	font-weight : normal;
+	color :#666666;
+	text-decoration : none;
+}
+
+.Footer{
+   font-size:11px;
+   font-weight:bold; 
+   color:#666;
+   text-decoration:none
+}
+
+A.Footer:link {
+    font-size:11px;
+    font-weight:bold; 
+	color : #666;
+	text-decoration : none;
+}
+
+A.Footer:visited  {
+    font-size:11px;
+    font-weight:bold; 
+	color : #666;
+	text-decoration : none;
+}
+
+A.Footer:active {
+    font-size:11px;
+    font-weight:bold; 
+	color : #666;
+	text-decoration : underline;
+}
+
+A.Footer:hover {
+    font-size:11px;
+    font-weight:bold; 
+	color :#87a284;
+	text-decoration : underline;
+}
+
+.Links {
+   font-size:11px;
+   font-weight:bold; 
+   color:#666;
+   text-decoration: none
+}
+
+A.Links:link {
+    font-size:11px;
+    font-weight:bold; 
+	color:#666;
+	text-decoration : none;
+}
+
+A.Links:visited {    
+    font-size:11px;
+    font-weight:bold; 
+	color:#666;
+	text-decoration : none;
+}
+
+A.Links:active {
+    font-size:11px;
+    font-weight:bold; 
+	color : #666;
+	text-decoration : underline;
+}
+
+A.Links:hover {
+    font-size:11px;
+    font-weight:bold; 
+	color : #87a284;
+	text-decoration : underline;
+}
+
+
+
+
